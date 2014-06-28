@@ -29,7 +29,7 @@ aside ul {
 }
  
 #intro {
-    height: 1200px;
+    height: 1210px;
     background: url('http://i.imgur.com/KgRExp4.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -136,6 +136,7 @@ and (max-device-width : 768px) {
     }
     
     #intro {
-        height: 500px;
+        height: 570px;
+        margin-left: -45px;
     }
 }
