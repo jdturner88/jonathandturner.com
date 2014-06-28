@@ -1,0 +1,142 @@
+* {
+    font-family: 'Open Sans', calibri, helvetica, sans-serif;
+}
+ 
+body {
+    height: 100%;
+    padding-top: 100px;
+    background: url('http://i.imgur.com/KgRExp4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p.navbar-brand a {
+    font-weight: bold;
+}
+ 
+ul.navbar-right {
+    padding-top: 4px;
+}
+
+aside ul {
+    position: fixed;
+    top: 100px;
+    left: 30px;
+    bottom: 0;
+    padding: 5px;
+    z-index: 100;
+}
+ 
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+#intro {
+    height: 1125px;
+}
+
+.title-name {
+    color: #fff;
+    font-size: 70px;
+    font-variant: small-caps;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+#about, 
+#portfolio, 
+#contact {
+    height: 100%;
+    background: white;
+    padding: 20px 0 60px;
+}
+ 
+#about p:last-child {
+    margin-bottom: 40px;
+}
+
+#about h2 {
+    margin: 20px 0;
+}
+
+#portfolio {
+    background: #e9e9e9;
+    color: #000;
+}
+
+#portfolio hr {
+    color: #000;
+}
+
+#portfolio img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 5px;
+    border: 1px solid #000;
+}
+
+#contact {
+    height: 900px;
+    background: #000;
+    color: #fff;
+}
+
+.contact-button {
+    margin: 0;
+}
+
+p.h1 {
+    color: #428BCA;
+}
+
+p.h1 a:hover {
+    color: #fff;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.social-media-hidden {
+    visibility: hidden;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 768px) {
+
+    aside {
+        visibility: hidden;
+    }
+    
+    .social-media-hidden {
+        visibility: visible;
+    }
+    
+    .social-media-hidden ul {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    
+    .social-media-hidden li {
+        margin: 0 5px;
+    }
+    
+    #intro {
+        height: 500px;
+    }
+}
