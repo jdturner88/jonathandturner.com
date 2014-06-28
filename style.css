@@ -4,12 +4,6 @@
  
 body {
     height: 100%;
-    padding-top: 100px;
-    background: url('http://i.imgur.com/KgRExp4.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 p.navbar-brand a {
@@ -35,7 +29,12 @@ aside ul {
 }
  
 #intro {
-    height: 1125px;
+    height: 1200px;
+    background: url('http://i.imgur.com/KgRExp4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .title-name {
